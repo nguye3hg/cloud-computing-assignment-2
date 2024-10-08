@@ -72,7 +72,6 @@ def index():
             <input type="submit" value="Sign In">
         </form>
 
-        <!-- Display error and success messages -->
         {% with messages = get_flashed_messages(with_categories=true) %}
           {% if messages %}
             <ul>
