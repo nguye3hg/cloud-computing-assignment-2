@@ -1,3 +1,4 @@
+# Using inline Html because files in /templates some how not work for me
 # cloud-computing-assignment-2
 # code:
 from flask import Flask, request, redirect, url_for, render_template_string, session, flash
